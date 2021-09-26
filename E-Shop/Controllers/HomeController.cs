@@ -20,7 +20,7 @@ namespace E_Shop.Controllers
 
         public IActionResult Index()
         {
-            var model = new IndexModel();
+            var model = new IndexViewModel();
             return View(model);
         }
 
