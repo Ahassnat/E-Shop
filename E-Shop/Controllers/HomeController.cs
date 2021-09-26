@@ -20,7 +20,8 @@ namespace E_Shop.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var model = new IndexModel();
+            return View(model);
         }
 
         public IActionResult Privacy()
